@@ -5,17 +5,19 @@
 header {
   text-align: center;
   background-size: cover;
-  height: 87vh;
-  background-image: url(images/donation0.jpg),
+  height: 100vh;
+  background-image: url(images/donation1.jpg),
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   color: white;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .h-title {
   padding-top: 200px;
-  font-weight: 700;
+  font-size: 70px;
+  color: white;
 }
 .btn-donate {
   margin: 5px;
@@ -80,12 +82,12 @@ img {
 }
 footer {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: black;
   color: aliceblue;
   text-align: center;
   margin-top: 100px;
-  padding-top: 20px;
+  padding-top: 40px;
   justify-content: center;
 }
 .btn-subs {
@@ -100,8 +102,11 @@ footer {
   text-align: center;
 }
 .button {
+  border: none;
   padding: 20px 30px;
   background: antiquewhite;
-  margin: 0 300px;
+  margin: 50px 300px;
+  height: 100px;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
