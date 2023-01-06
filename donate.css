@@ -8,13 +8,14 @@ header {
   height: 87vh;
   background-image: url(images/donation0.jpg),
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: hard-light;
   background-repeat: no-repeat;
   color: white;
   justify-content: center;
 }
 .h-title {
   padding-top: 200px;
-  font-weight: 1000;
+  font-weight: 700;
 }
 .btn-donate {
   margin: 5px;
@@ -23,6 +24,7 @@ header {
   border-radius: 5px;
   background-color: orangered;
   color: white;
+  margin-top: 30px;
 }
 .today {
   text-align: center;
@@ -30,5 +32,76 @@ header {
 .ul {
   display: flex;
   list-style: none;
+  justify-content: center;
+}
+.taka {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+.two {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  background-color: lightsalmon;
+  border: 1px solid orangered;
+}
+#amount {
+  padding: 30px 80px 10px 70px;
+  margin-top: 30%;
+  border-bottom: 1px solid lightgray;
+}
+.donate-plane {
   text-align: center;
+}
+.boxes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.text-img1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+img {
+  border-radius: 5px;
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.btn-subs {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+  margin-top: 30px;
+}
+.subscribe {
+  text-align: center;
+}
+.button {
+  padding: 20px 30px;
+  background: antiquewhite;
+  margin: 0 300px;
+  margin-bottom: 30px;
 }
